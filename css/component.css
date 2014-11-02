@@ -166,7 +166,7 @@ header h1 {
 .no-js .content section {
 	display: block;
 	padding-bottom: 2em;
-	border-bottom: 1px solid #47a3da;
+	border-bottom: 1px solid black;
 }
 
 .content section.content-current {
