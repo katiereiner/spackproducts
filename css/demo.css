@@ -111,7 +111,6 @@ a:hover {
 }
 
 .container > header nav a:hover:before {
-	content: attr(data-info);
 	color: #47a3da;
 	position: absolute;
 	width: 600%;
