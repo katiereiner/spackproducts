@@ -17,6 +17,30 @@
 	font-weight: 300;
 }
 
+
+.employees{
+	text-align:center;
+}
+
+.employees img {
+	padding:5px;
+	-webkit-filter: grayscale(100%); -moz-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+
+#spacklogo {
+	width:300px;
+	height:150px;
+	position:fixed;
+
+}
+
+header h1 {
+	font-family: ImpalaScript;
+	font-weight: normal;
+	font-style: normal;
+}
+
 /* Nav */
 .tabs nav {
 	text-align: center;
@@ -30,6 +54,7 @@
 }
 
 .tabs nav ul li {
+
 	border: 1px solid #ed145b;
 	border-bottom: none;
 	margin: 0 0.25em;
@@ -63,9 +88,12 @@
 }
 
 .tabs nav a {
+	font-family: ImpalaScript;
+	font-weight: normal;
+	font-style: normal;
 	color: #becbd2;
 	display: block;
-	font-size: 1.45em;
+	font-size: 1.8em;
 	line-height: 2.5;
 	padding: 0 1.25em;
 	white-space: nowrap;
