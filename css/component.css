@@ -199,7 +199,7 @@ header h1 {
 
 @media screen and (max-width: 52.375em) {
 	.tabs nav a span {
-		display: none;
+		font-size: .8em;
 	}
 
 	.tabs nav a:before {
