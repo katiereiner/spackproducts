@@ -76,18 +76,13 @@
 	filter: grayscale(100%);
 }
 
-#spacklogo {
-	width:300px;
-	height:150px;
+.spacklogo {
 	position:fixed;
-
-}
-
-header h1 {
+	top:-5px;
  	font-family: Ventana;
 	font-weight: normal;
 	font-style: normal;
-	size:20%;
+	font-size:70px;
 	color: #ef0088;
 }
 
