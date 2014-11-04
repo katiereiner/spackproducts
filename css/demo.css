@@ -41,11 +41,10 @@ a:hover {
 	padding: 2.875em 1.875em 1.875em;
 }
 
-
 .container > header h1 {
-	font-size: 3.5em;
+	font-size: 1.5em;
 	line-height: 1.3;
-	margin: -15px 0 0.6em 45%;
+	margin: -15px 0 0.6em 0;
 	float: left;
 	font-weight: 400;
 	color: black;
@@ -177,7 +176,6 @@ p.info {
 	.container > header h1,
 	.container > header nav {
 		float: none;
-		margin-left: 0%;
 	}
 
 	.container > header > span,
