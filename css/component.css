@@ -77,13 +77,17 @@
 }
 
 .spacklogo {
-	position:fixed;
-	top:-5px;
+	height:100px;
+	width:210px;
+	position:absolute;
+	top:40px;
+	left:4%;
+	/*position:absolute;
  	font-family: Ventana;
 	font-weight: normal;
 	font-style: normal;
-	font-size:70px;
-	color: #ef0088;
+	font-size:10px;
+	color: #ef0088;*/
 }
 
 /* Nav */
