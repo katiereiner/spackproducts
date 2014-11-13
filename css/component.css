@@ -18,14 +18,14 @@
 }
 
 .aboutspack {
-	width:80%;
+	width:75%;
 	font-family: CoreMellow25ExtraLight;
 	font-weight: normal;
 	font-style: normal;
 	font-size:20px;
-	text-align:center;
+	float:right;
 	position:relative;
-	left:10%;
+	/*left:10%;*/
 	color:black;
 	top:-60px;
 }
@@ -48,11 +48,11 @@
 	text-align:center;
 	color:black;
 	left:12%;
-	top:-80px;
+	top:-30px;
 	font-family: CoreMellow25ExtraLight;
 	font-weight: normal;
 	font-style: normal;
-	font-size:18px;
+	font-size:15px;
 }
 
 .mj {
@@ -61,19 +61,22 @@
 
 
 #marjul {
-	width:70%;
+	width:55%;
 	position:relative;
-	top:-65px;
+	top:-40px;
 }
 
 .employees{
+	padding-top: 150px;
 	text-align:center;
 }
 
 .employees img {
-	padding:5px;
-	-webkit-filter: grayscale(100%); -moz-filter: grayscale(100%);
-	filter: grayscale(100%);
+	width:200px;
+	padding:10px;
+	border-radius:100%;
+/*	-webkit-filter: grayscale(100%); -moz-filter: grayscale(100%);
+	filter: grayscale(100%);*/
 }
 
 #spacklogo {
