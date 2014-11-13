@@ -48,11 +48,11 @@
 	text-align:center;
 	color:black;
 	left:12%;
-	top:-30px;
-	font-family: CoreMellow25ExtraLight;
+	top:-40px;
+	font-family: ImpalaScript;
 	font-weight: normal;
 	font-style: normal;
-	font-size:15px;
+	font-size:40px;
 }
 
 .mj {
@@ -63,12 +63,23 @@
 #marjul {
 	width:55%;
 	position:relative;
-	top:-40px;
+	top:-30px;
 }
 
 .employees{
-	padding-top: 150px;
+	font-family: ImpalaScript;
+	font-size:2em;
+	color:#ef0088;
+	background-color:#F7F7F7;
+	/*margin-top: 10px;*/
+	padding-top: 20px;
 	text-align:center;
+	width:100%;
+	padding-bottom:100px;
+}
+
+figure {
+	display:inline;
 }
 
 .employees img {
@@ -77,6 +88,11 @@
 	border-radius:100%;
 /*	-webkit-filter: grayscale(100%); -moz-filter: grayscale(100%);
 	filter: grayscale(100%);*/
+	border: 3px solid white;
+}
+
+.employees img:hover{
+	-webkit-filter: grayscale(100%);
 }
 
 #spacklogo {
@@ -201,8 +217,16 @@ header h1 {
 	font-size: 1.25em;
 	padding: 3em 1em;
 	display: none;
-	max-width: 1230px;
+	/*max-width: 1230px;*/
 	margin: 0 auto;
+}
+
+#section-3 {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+
 }
 
 .content section:before,
