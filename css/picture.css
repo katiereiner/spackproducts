@@ -26,7 +26,7 @@
 
 .carousel_image#one{	
 	width: 13578px;
-	background: url(../images/logo.jpg) repeat-x left top;
+	background: url(../images/carousel_pic.jpg) repeat-x left top;
 	-webkit-animation: slideshow 260s linear infinite;
 	-moz-animation:    slideshow 260s linear infinite;
 	animation:     slideshow 260s linear infinite;
