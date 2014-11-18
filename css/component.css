@@ -92,6 +92,18 @@ figure {
 	display:inline;
 }
 
+.homeinfo {
+	font-family: ImpalaScript;
+	font-size:1em;
+	color:white;
+	background-color:#ef0088;
+	/*margin-top: 10px;*/
+	padding-top: 20px;
+	text-align:center;
+	width:100%;
+	padding-bottom:100px;
+}
+
 .employees img {
 	width:200px;
 	padding:10px;
@@ -187,6 +199,7 @@ header h1 {
 	color: black;
 	border-bottom:1px solid #ef0088;
 }
+
 
 /* Icons */
 .tabs nav a:before {
