@@ -17,15 +17,25 @@
 	font-weight: 300;
 }
 
+.products h3 {
+	font-family: CoreMellow25ExtraLight;
+	color:black;
+}
+
+.products p {
+	font-family: CoreMellow25ExtraLight;
+	color:black;
+}
+
 .aboutspack {
 	width:75%;
 	font-family: CoreMellow25ExtraLight;
 	font-weight: normal;
 	font-style: normal;
 	font-size:20px;
-	float:right;
+	/*float:right;*/
 	position:relative;
-	/*left:10%;*/
+	left:15%;
 	color:black;
 	top:-60px;
 }
@@ -82,9 +92,14 @@
 .employees span {
 	font-size:30px;
 	position:relative;
-	left:-100px;
-	top:-100px;
+	left:-90px;
+	top:-40px;
+	letter-spacing: 1px;
 	/*display:none;*/
+}
+
+.employees h1 {
+	letter-spacing: 2px;
 }
 
 
@@ -93,7 +108,7 @@ figure {
 }
 
 .homeinfo {
-	font-family: ImpalaScript;
+	font-family: CoreMellow25ExtraLight;
 	font-size:1em;
 	color:white;
 	background-color:#ef0088;
@@ -104,23 +119,34 @@ figure {
 	padding-bottom:100px;
 }
 
+.homeinfo p {
+	width:90%;
+	position:relative;
+	left:5%;
+}
+
 .employees img {
 	width:200px;
 	padding:10px;
 	border-radius:100%;
+	text-align: center;
+	position:relative;
+	left:5%;
 /*	-webkit-filter: grayscale(100%); -moz-filter: grayscale(100%);
 	filter: grayscale(100%);*/
 	border: 3px solid white;
 }
 
 .employees img:hover{
-	-webkit-filter: grayscale(100%);
+	/*-webkit-filter: grayscale(100%);*/
 }
 
 #spacklogo {
-	width:300px;
+	width:250px;
 	height:150px;
-	position:fixed;
+	position:absolute;
+	margin-left:-90px;
+	margin-top:-40px;
 
 }
 
