@@ -60,10 +60,9 @@
 	color:black;
 	left:12%;
 	top:-40px;
-	font-family: ImpalaScript;
-	font-weight: normal;
-	font-style: normal;
-	font-size:40px;
+	font-family: CoreMellow25ExtraLight;
+	font-size:20px;
+	font-weight: bold;
 }
 
 .mj {
@@ -125,6 +124,11 @@ figure {
 	left:5%;
 }
 
+.homeinfo h1 {
+	font-family: ImpalaScript;
+	size:3em;
+}
+
 .employees img {
 	width:200px;
 	padding:10px;
@@ -135,6 +139,18 @@ figure {
 /*	-webkit-filter: grayscale(100%); -moz-filter: grayscale(100%);
 	filter: grayscale(100%);*/
 	border: 3px solid white;
+}
+
+#buybox {
+	border: 3px solid white;
+	padding:10px;
+	width:15%;
+	position:relative;
+	left:43%;
+}
+
+ div #buybox {
+text-align:center;
 }
 
 .employees img:hover{
