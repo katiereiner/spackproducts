@@ -27,6 +27,18 @@
 	color:black;
 }
 
+.products div{
+	display:inline-block;
+	margin:0;
+	padding:10px;
+	clear:none;
+}
+
+.products img {
+	width:100px;
+	height:50px;
+}
+
 .aboutspack {
 	width:75%;
 	font-family: CoreMellow25ExtraLight;
@@ -118,6 +130,10 @@ figure {
 	padding-bottom:100px;
 }
 
+#spackvid {
+
+}
+
 .homeinfo p {
 	width:90%;
 	position:relative;
@@ -147,10 +163,11 @@ figure {
 	width:15%;
 	position:relative;
 	left:43%;
+	margin:0;
 }
 
  div #buybox {
-text-align:center;
+	text-align:center;
 }
 
 .employees img:hover{
@@ -164,6 +181,15 @@ text-align:center;
 	margin-left:-90px;
 	margin-top:-40px;
 
+}
+
+#spackvid {
+	text-align:center;
+	width:600px;
+	height:338px;
+	position:relative;
+	left:17%;
+	border:none;
 }
 
 header h1 {
@@ -322,19 +348,27 @@ header h1 {
 }
 
 .mediabox img {
-	max-width: 100%;
+	max-width: 50%;
 	display: block;
 	margin: 0 auto;
 }
 
 .mediabox h3 {
 	margin: 0.75em 0 0.5em;
+	font-family: CoreMellow25ExtraLight;
+	color:black;
+		text-align:center;
+
 }
 
 .mediabox p {
 	padding: 0 0 1em 0;
 	margin: 0;
 	line-height: 1.3;
+	font-family: CoreMellow25ExtraLight;
+	color:black;
+	text-align:center;
+
 }
 
 .info {
