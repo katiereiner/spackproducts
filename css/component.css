@@ -183,6 +183,53 @@ figure {
 
 }
 
+#rephead {
+	font-family: ImpalaScript;
+	font-size:2.5em;
+	color:#ef0088;
+}
+
+.colleges {
+	padding-top:1%;
+	background-color:#F0F0F0;
+	text-align:center;
+	padding-bottom:2%;
+}
+
+.reps {
+	font-family: CoreMellow25ExtraLight;
+	color:#ef0088;
+	font-size:1.2em;
+}
+
+#email {
+	color:#ef0088;
+}
+
+#email:hover {
+	color:black;
+}
+
+.cont{
+	cursor: pointer;
+	color:black;
+	display:inline-block;
+	width:30%;
+	font-family: CoreMellow25ExtraLight;
+}
+
+.cont h2 {
+	font-size:1em;
+}
+
+.cont h3 {
+	font-size:1em;
+}
+
+.cont:hover {
+	color:#ef0088;
+}
+
 #spackvid {
 	text-align:center;
 	width:600px;
