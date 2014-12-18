@@ -443,6 +443,18 @@ header h1 {
 
 .modal input{
 	border:2px black solid;
+	font-size: 1em;
+}
+
+.modal button{
+	text-align: center;
+	background-color: black;
+	color: #ef0088;
+	width: 20%;
+	height: 20%;
+	border: none;
+	font-size: 1.2em;
+	font-family: CoreMellow25ExtraLight;
 }
 
 .open-modal {
