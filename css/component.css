@@ -426,6 +426,133 @@ header h1 {
 	font-style: italic;
 }
 
+
+/*MODAL*/
+
+
+.wrap {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  font-family: CoreMellow25ExtraLight;
+}
+
+.modal p {
+	font-size: 1.5em;
+}
+
+.modal input{
+	border:2px black solid;
+}
+
+.open-modal {
+  padding: 4% 8%;
+  text-decoration: none;
+  -webkit-transition: all 0.5s ease;
+  background: #00a7c8;
+  color: white;
+  border: 1px solid #00a7c8;
+  cursor: pointer;
+}
+
+.open-modal:hover {
+  border: 1px solid #00a7c8;
+  color: #00a7c8;
+  background: transparent;
+}
+
+.overlay {
+  position: absolute;
+  background: rgba(70, 70, 70, 0.9);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  z-index: -1;
+  width: 100%;
+  height:100%;
+  -webkit-transition: all 0.5s ease;
+}
+
+.modal {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  bottom: 10%;
+  right: 10%;
+  background: white;
+  z-index: 9998;
+  padding: 15% 5%;
+  color: black;
+  text-align: center;
+  opacity: 0;
+  border:#ef0088 5px solid;
+  -webkit-transition: all 0.5s ease;
+  -webkit-transform: scale(0);
+}
+
+.button-modal {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 100%;
+  position: absolute;
+  right: 4%;
+  top: 5%;
+  -webkit-transition: all 0.5s ease;
+}
+
+.cross {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  z-index: 9999;
+  cursor: pointer;
+  left: 46%;
+  top: 30%;
+}
+.cross:before, .cross:after {
+  position: absolute;
+  content: "";
+  display: block;
+  top: 0;
+  height: 15px;
+  width: 2px;
+  background:black;
+  -webkit-transition: all 0.5s ease;
+}
+.cross:before {
+  -webkit-transform: rotate(45deg);
+}
+.cross:after {
+  -webkit-transform: rotate(-45deg);
+}
+
+.active {
+  opacity: 1;
+  z-index: 9997;
+}
+
+.active-modal {
+  opacity: 1;
+  -webkit-transform: scale(1);
+}
+
+.button-modal:hover {
+  background: white;
+}
+
+.button-modal:hover .cross:after {
+  background: black;
+}
+
+.button-modal:hover .cross:before {
+  background: black3;
+}
+
+
 /* Example media queries */
 
 @media screen and (max-width: 52.375em) {

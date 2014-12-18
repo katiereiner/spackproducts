@@ -1,86 +1,96 @@
 $( document ).ready(function() {
-	 $("#stevie").hide();
+	$("#stevie").hide();
 
 	$("#upenn").click(function(){
-	  $("#stevie").toggle();
+		$("#stevie").toggle();
 	});
 
 
-	 $("#ali").hide();
+	$("#ali").hide();
 
 	$("#vandy").click(function(){
-	  $("#ali").toggle();
+		$("#ali").toggle();
 	});
-	 $(".wiscorep").hide();
+	$(".wiscorep").hide();
 
 	$("#wisco").click(function(){
-	  $(".wiscorep").toggle();
+		$(".wiscorep").toggle();
 	});
 
-	 $("#amanda").hide();
+	$("#amanda").hide();
 
 	$("#delaware").click(function(){
-	  $("#amanda").toggle();
+		$("#amanda").toggle();
 	});
-	 $(".floridareps").hide();
+	$(".floridareps").hide();
 
 	$("#florida").click(function(){
-	  $(".floridareps").toggle();
+		$(".floridareps").toggle();
 	});
-	 $("#emma").hide();
+	$("#emma").hide();
 
 	$("#lehigh").click(function(){
-	  $("#emma").toggle();
+		$("#emma").toggle();
 	});
-	 $(".psureps").hide();
+	$(".psureps").hide();
 
 	$("#psu").click(function(){
-	  $(".psureps").toggle();
+		$(".psureps").toggle();
 	});
-	 $(".boulderreps").hide();
+	$(".boulderreps").hide();
 
 	$("#boulder").click(function(){
-	  $(".boulderreps").toggle();
+		$(".boulderreps").toggle();
 	});
-	 $("#kim").hide();
+	$("#kim").hide();
 
 	$("#bu").click(function(){
-	  $("#kim").toggle();
+		$("#kim").toggle();
 	});
-	 $("#morgan").hide();
+	$("#morgan").hide();
 
 	$("#emory").click(function(){
-	  $("#morgan").toggle();
+		$("#morgan").toggle();
 	});
-	 $(".syracusereps").hide();
+	$(".syracusereps").hide();
 
 	$("#syracuse").click(function(){
-	  $(".syracusereps").toggle();
+		$(".syracusereps").toggle();
 	});
-	 $("#sydney").hide();
+	$("#sydney").hide();
 
 	$("#tulane").click(function(){
-	  $("#sydney").toggle();
+		$("#sydney").toggle();
 	});
-	 $(".indianareps").hide();
+	$(".indianareps").hide();
 
 	$("#indiana").click(function(){
-	  $(".indianareps").toggle();
+		$(".indianareps").toggle();
 	});
-	 $("#dani").hide();
+	$("#dani").hide();
 
 	$("#nw").click(function(){
-	  $("#dani").toggle();
+		$("#dani").toggle();
 	});
-	 $("#jessie").hide();
+	$("#jessie").hide();
 
 	$("#maryland").click(function(){
-	  $("#jessie").toggle();
+		$("#jessie").toggle();
 	});
-	 $("#hayley").hide();
+	$("#hayley").hide();
 
 	$("#miami").click(function(){
-	  $("#hayley").toggle();
+		$("#hayley").toggle();
 	});
-	 
+
+	$(window).load(function(){
+		$(".overlay").addClass("active");
+		$(".modal").addClass("active-modal");
+	});
+
+	$("#close").click(function(){
+		$(".overlay").removeClass("active");
+		$(".modal").removeClass("active-modal");
+	});
+
 });
