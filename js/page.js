@@ -2,85 +2,85 @@ $( document ).ready(function() {
 	$("#stevie").hide();
 
 	$("#upenn").click(function(){
-		$("#stevie").toggle();
+		$("#stevie").slideToggle();
 	});
 
 
 	$("#ali").hide();
 
 	$("#vandy").click(function(){
-		$("#ali").toggle();
+		$("#ali").slideToggle();
 	});
 	$(".wiscorep").hide();
 
 	$("#wisco").click(function(){
-		$(".wiscorep").toggle();
+		$(".wiscorep").slideToggle();
 	});
 
 	$("#amanda").hide();
 
 	$("#delaware").click(function(){
-		$("#amanda").toggle();
+		$("#amanda").slideToggle();
 	});
 	$(".floridareps").hide();
 
 	$("#florida").click(function(){
-		$(".floridareps").toggle();
+		$(".floridareps").slideToggle();
 	});
 	$("#emma").hide();
 
 	$("#lehigh").click(function(){
-		$("#emma").toggle();
+		$("#emma").slideToggle();
 	});
 	$(".psureps").hide();
 
 	$("#psu").click(function(){
-		$(".psureps").toggle();
+		$(".psureps").slideToggle();
 	});
 	$(".boulderreps").hide();
 
 	$("#boulder").click(function(){
-		$(".boulderreps").toggle();
+		$(".boulderreps").slideToggle();
 	});
 	$("#kim").hide();
 
 	$("#bu").click(function(){
-		$("#kim").toggle();
+		$("#kim").slideToggle();
 	});
 	$("#morgan").hide();
 
 	$("#emory").click(function(){
-		$("#morgan").toggle();
+		$("#morgan").slideToggle();
 	});
 	$(".syracusereps").hide();
 
 	$("#syracuse").click(function(){
-		$(".syracusereps").toggle();
+		$(".syracusereps").slideToggle();
 	});
 	$("#sydney").hide();
 
 	$("#tulane").click(function(){
-		$("#sydney").toggle();
+		$("#sydney").slideToggle();
 	});
 	$(".indianareps").hide();
 
 	$("#indiana").click(function(){
-		$(".indianareps").toggle();
+		$(".indianareps").slideToggle();
 	});
 	$("#dani").hide();
 
 	$("#nw").click(function(){
-		$("#dani").toggle();
+		$("#dani").slideToggle();
 	});
 	$("#jessie").hide();
 
 	$("#maryland").click(function(){
-		$("#jessie").toggle();
+		$("#jessie").slideToggle();
 	});
 	$("#hayley").hide();
 
 	$("#miami").click(function(){
-		$("#hayley").toggle();
+		$("#hayley").slideToggle();
 	});
 
 	$(window).load(function(){
