@@ -53,8 +53,6 @@
 }
 
 #onepack {
-	width:200px;
-	height:300px;
 	margin:auto 0;
 }
 
@@ -403,6 +401,7 @@ header h1 {
 
 .mediabox img {
 	max-width: 100%;
+	width: 90%;
 	display: block;
 	margin: 0 auto;
 }
