@@ -52,6 +52,12 @@
 	top:-60px;
 }
 
+#onepack {
+	width:200px;
+	height:300px;
+	margin:auto 0;
+}
+
 
 #spack_head {
 	font-family: Ventana;
@@ -396,13 +402,13 @@ header h1 {
 }
 
 .mediabox img {
-	max-width: 50%;
+	max-width: 100%;
 	display: block;
 	margin: 0 auto;
 }
 
 .mediabox h3 {
-	margin: 0.75em 0 0.5em;
+	/*margin: 0.75em 0 0.5em;*/
 	font-family: CoreMellow25ExtraLight;
 	color:black;
 		text-align:center;
