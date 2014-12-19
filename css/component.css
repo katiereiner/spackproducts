@@ -164,6 +164,7 @@ figure {
 	position:relative;
 	left:43%;
 	margin:0;
+	cursor: pointer;
 }
 
  div #buybox {

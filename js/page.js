@@ -93,4 +93,22 @@ $( document ).ready(function() {
 		$(".modal").removeClass("active-modal");
 	});
 
+	$("a#jump").click(function(){
+		$(".tab-current").removeClass("tab-current");
+		$(".tabs> nav > ul > li:nth-child(5)").addClass("tab-current");
+		$(".content-current").removeClass("content-current");
+		$("section#section-5").addClass("content-current");
+	});
+
+	$("a[href*=#section]").click(function(){
+ 
+    if ( $(".tabs> nav > ul > li:nth-child(5)").hasClass("tab-current") && $("section#section-5").hasClass("content-current")) {
+ 
+        $(".tabs> nav > ul > li:nth-child(5)").removeClass("tab-current");
+        $("section#section-5").removeClass("content-current");
+            
+    };
+ 
+	});
+
 });
