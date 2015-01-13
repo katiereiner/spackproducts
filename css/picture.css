@@ -78,7 +78,7 @@
 	
 	.carousel_image#one{	
 		width: 6789px;
-		background: url(images/carousel_one_mobile.jpg) repeat-x left top;
+		background: url(../images/carousel_pic.jpg) repeat-x left top;
 		-webkit-animation: slideshow 260s linear infinite;
 		-moz-animation:    slideshow 260s linear infinite;
 		animation:     slideshow 260s linear infinite;
