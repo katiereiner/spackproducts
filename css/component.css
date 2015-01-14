@@ -629,6 +629,71 @@ header h1 {
 }
 
 @media screen and (max-width: 32em) {
+		#spacklogo {
+		display:none;
+	}
+
+	.homeinfo {
+		font-size:10px;
+	}
+
+	#spackvid {
+		width:230px;
+		height:130px;
+		position:relative;
+		left:1%;
+	}
+
+	#mjinfo {
+		font-size:10px;
+	}
+
+	.employees{
+	font-family: ImpalaScript;
+	font-size:1em;
+	color:#ef0088;
+	background-color:#F7F7F7;
+	/*margin-top: 10px;*/
+	padding-top: 20px;
+	text-align:center;
+	width:100%;
+	padding-bottom:100px;
+}
+
+.employees span {
+	font-size:15px;
+	position:relative;
+	left:-90px;
+	top:-40px;
+	letter-spacing: 1px;
+	/*display:none;*/
+}
+
+.employees h1 {
+	letter-spacing: 2px;
+}
+
+.colleges {
+	font-size:10px;
+}
+
+
+figure {
+	display:inline;
+}
+
+
+.employees img {
+	width:200px;
+	padding:10px;
+	border-radius:100%;
+	text-align: center;
+	position:relative;
+	left:5%;
+/*	-webkit-filter: grayscale(100%); -moz-filter: grayscale(100%);
+	filter: grayscale(100%);*/
+	border: 3px solid white;
+}
 	.tabs nav ul,
 	.tabs nav ul li a {
 		width: 100%;
