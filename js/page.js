@@ -83,7 +83,7 @@ $( document ).ready(function() {
 		$("#hayley").slideToggle();
 	});
 
-	$(window).load(function(){
+	$("a#open_modal").click(function(){
 		$(".overlay").addClass("active");
 		$(".modal").addClass("active-modal");
 	});

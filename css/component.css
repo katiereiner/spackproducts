@@ -178,6 +178,9 @@ figure {
 
  div #buybox {
 	text-align:center;
+	left:10%;
+	margin: 10%;
+	width: 90%;
 }
 
 .employees img:hover{
@@ -574,7 +577,14 @@ header h1 {
 }
 
 .button-modal:hover .cross:before {
-  background: black3;
+  background: black;
+}
+
+#buttons{
+	position: relative;
+	left: 40%;
+	width: 22%;
+	height: 50%;
 }
 
 
