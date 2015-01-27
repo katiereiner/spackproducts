@@ -24,8 +24,7 @@
 	width:270px;
 	position:relative;
 	left:2%;
-	top:40px;
-	margin-bottom: 25%;
+	margin-bottom: 5%;
 }
 
 #fpack {
@@ -443,10 +442,6 @@ header h1 {
 	padding-left:70%;
 	color:black;
 }
-
-
-/*MODAL*/
-
 
 .wrap {
   padding: 0;
