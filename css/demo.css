@@ -25,6 +25,12 @@ body {
 }
 
 a {
+	text-decoration: none;
+	outline: none;
+	color:black;
+}
+
+a #buybox{
 	color: #ccc;
 	text-decoration: none;
 	outline: none;
