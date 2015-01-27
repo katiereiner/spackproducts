@@ -17,6 +17,22 @@
 	font-weight: 300;
 }
 
+
+
+#onepack {
+	height:180px;
+	width:270px;
+	position:relative;
+	left:2%;
+	top:40px;
+	margin-bottom: 25%;
+}
+
+#fpack {
+	height:250px;
+	width:200px;
+}
+
 .products h3 {
 	font-family: CoreMellow25ExtraLight;
 	color:black;
@@ -33,6 +49,8 @@
 	padding:10px;
 	clear:none;
 }
+
+
 
 .products img {
 	width:100px;
@@ -52,9 +70,6 @@
 	top:-60px;
 }
 
-#onepack {
-	margin:auto 0;
-}
 
 
 #spack_head {
