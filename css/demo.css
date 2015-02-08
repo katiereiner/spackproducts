@@ -95,8 +95,13 @@ a:hover {
 	background: #47a3da;
 }
 
-.container > header nav {
+.container > header nav #two {
 	float: right;
+	text-align: center;
+}
+
+.container > header nav #one {
+	float: left;
 	text-align: center;
 }
 
